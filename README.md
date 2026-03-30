@@ -213,7 +213,7 @@ batch_size = 5
 
 ## Gaps Between Report and Codebase
 
-The following features exist in the codebase but are not fully covered in the [technical report](docs/technical_report.md):
+The following features exist in the codebase but are not fully covered in the [technical report](docs/technical_report.pdf):
 
 - **JSON evaluators** (`json_structure_match`, `json_llm_match`) -- deterministic and semantic JSON field comparison with order-independent list matching
 - **A/B position randomization** in comparison evaluator to eliminate order bias
