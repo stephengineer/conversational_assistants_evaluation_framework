@@ -1,4 +1,4 @@
-# SUT Evaluation Framework
+# Conversational Assistants Evaluation Framework
 
 A Python-based evaluation platform for benchmarking real-time, multi-turn AI conversational assistants. Supports single-round and multi-turn evaluation with LLM-as-judge scoring, deterministic JSON comparison, pairwise A/B testing, automated query generation, and dataset management via LangSmith.
 
@@ -8,7 +8,7 @@ A Python-based evaluation platform for benchmarking real-time, multi-turn AI con
 
 ## Key Features
 
-- **Single-round & multi-turn evaluation** -- Evaluate one-shot responses or full multi-turn conversations with persistent SUT sessions
+- **Single-round & multi-turn evaluation** -- Evaluate one-shot responses or full multi-turn conversations with persistent system under test (SUT) sessions
 - **AI provider evaluation** -- LLM-based query generator simulates realistic users, adapting follow-up queries based on live SUT responses
 - **7 built-in evaluators** -- Relevance, correctness, agent routing match, pairwise comparison, JSON structure match, JSON semantic match, report agent data
 - **A/B comparison with position randomization** -- Eliminates order bias when comparing SUT vs. baseline responses
